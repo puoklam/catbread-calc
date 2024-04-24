@@ -8,6 +8,8 @@ on:
     # tags:
     #   - 'v[0-9]+.[0-9]+.[0-9]+'
     branches: ['gh-pages']
+  pull_request:
+    branches: ['gh-pages']
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
